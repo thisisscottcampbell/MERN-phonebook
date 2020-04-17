@@ -9,7 +9,6 @@ router.get('/', (req, res) => {
   res.send('Get all contacts');
 });
 
-
 //@route    POST api/users
 //@desc     Add a contact
 //@access   Public  
@@ -17,7 +16,6 @@ router.get('/', (req, res) => {
 router.post('/', (req, res) => {
   res.send('Add a contact');
 });
-
 
 //@route    PUT api/users/:id
 //@desc     Update a contact
@@ -34,6 +32,5 @@ router.put('/:id', (req, res) => {
 router.delete('/:id', (req, res) => {
   res.send('Delete a contact');
 });
-
 
 module.exports = router
