@@ -1,7 +1,13 @@
 //'import' express
-const express = require('express')
+const express = require('express');
+//import DB
+const connectDB = require('./config/db');
+
 //initialze express
-const app = express()
+const app = express();
+
+//Connect Database
+connectDB();
 
 app.get('/', (req, res) => res.json({msg: 'Welcome to the contact keeper api'}));
 
