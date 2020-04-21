@@ -32,4 +32,4 @@ const ContactSchema = mongoose.Schema({
   }
 })
 
-module.exports = mongoose.model('user', ContactSchema)
+module.exports = mongoose.model('contact', ContactSchema)
