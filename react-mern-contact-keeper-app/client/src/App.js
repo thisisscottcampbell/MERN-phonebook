@@ -1,14 +1,16 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch }
+import React, { Fragment } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 
+'react-router-dom'
 import Navbar from '../src/components/layout/Navbar'
 import './App.css';
 
 const App = () => {
   return (
-    <div className="App">
-      <Navbar />
-      hi, i'm app :)
-    </div>
+    <Router>
+      <Fragment>
+        <Navbar />  
+      </Fragment>
+    </Router>
   );
 };
 
