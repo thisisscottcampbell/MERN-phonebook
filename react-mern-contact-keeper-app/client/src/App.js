@@ -1,6 +1,7 @@
 import React from 'react';
-import './App.css';
+import { BrowserRouter as Router, Route, Switch }
 import Navbar from '../src/components/layout/Navbar'
+import './App.css';
 
 const App = () => {
   return (
