@@ -23,3 +23,5 @@ const App = () => {
 };
 
 export default App;
+
+//NEXT YOU ARE WIRING UP SOME NAV LINKS
