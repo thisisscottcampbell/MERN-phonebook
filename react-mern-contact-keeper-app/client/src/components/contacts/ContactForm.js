@@ -12,7 +12,7 @@ const ContactForm = () => {
   const { name, email, phone, type } = contact
 
   return (
-    <div>
+    <form>
       <h2  className='text-primary'>Add Contact</h2>
       <input 
         type='text'
@@ -48,7 +48,10 @@ const ContactForm = () => {
           value='personal'
           checked={type === 'professioanl'}
         /> Professional{' '}
-    </div>
+        <div>
+          <input type="submit" value="Add Contact" className="btn btn-primary btn-block"/>
+        </div>
+    </form>
   )
 }
 
