@@ -19,21 +19,21 @@ export const ContactState = (props) => {
         id: 1,
         name: 'Buddy',
         email: 'buddy@thecat.com',
-        phone: 111-111-1111,
+        phone: 111-222-3333,
         type: 'homie'
       },
       {
         id: 2,
         name: 'Truman',
         email: 'truman@thecat.com',
-        phone: 222-222-2222,
+        phone: 444-555-5555,
         type: 'homie'
       },
       {
         id: 3,
         name: 'Scooby',
         email: 'cooby@thecat.com',
-        phone: 333-333-3333,
+        phone: 666-777-8888,
         type: 'homie'
       }
     ]
