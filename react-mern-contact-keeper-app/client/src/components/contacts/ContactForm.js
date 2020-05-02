@@ -21,6 +21,27 @@ const ContactForm = () => {
         value={name}
         onChange={onChange}
       />
+         <input 
+        type='text'
+        placeholder='email'
+        name='email'
+        value={email}
+        onChange={onChange}
+      />
+         <input 
+        type='text'
+        placeholder='phone'
+        name='phone'
+        value={phone}
+        onChange={onChange}
+      />
+         <input 
+        type='text'
+        placeholder='type'
+        name='type'
+        value={type}
+        onChange={onChange}
+      />
     </div>
   )
 }
