@@ -27,7 +27,7 @@ const ContactItem = ({ contact }) => {
       </ul>
       <p>
         <button className="btn btn-dark btn-sm">Edit</button>
-        <button className="btn btn-dark btn-sm">Delete</button>
+        <button className="btn btn-danger btn-sm">Delete</button>
       </p>
     </div>
   )
