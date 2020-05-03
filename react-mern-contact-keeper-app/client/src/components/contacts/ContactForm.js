@@ -6,7 +6,7 @@ const ContactForm = () => {
     name: '',
     email: '',
     phone: '',
-    type: 'homie'
+    type: 'Homie'
   });
 
   const { name, email, phone, type } = contact
@@ -41,9 +41,9 @@ const ContactForm = () => {
         <input 
           type='radio'
           name='type'
-          value='personal'
-          checked={type === 'personal'}
-        /> Personal{' '}
+          value='Homie'
+          checked={type === 'Homie'}
+        /> Homie{' '}
         <input 
           type='radio'
           name='type'
