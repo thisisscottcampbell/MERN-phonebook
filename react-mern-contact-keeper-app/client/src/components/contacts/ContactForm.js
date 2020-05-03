@@ -57,12 +57,14 @@ const ContactForm = () => {
           name='type'
           value='Homie'
           checked={type === 'Homie'}
+          onChange={onChange}
         /> Homie{' '}
         <input 
           type='radio'
           name='type'
           value='personal'
           checked={type === 'professioanl'}
+          onChange={onChange}
         /> Professional{' '}
         <div>
           <input type="submit" value="Add Contact" className="btn btn-primary btn-block"/>
