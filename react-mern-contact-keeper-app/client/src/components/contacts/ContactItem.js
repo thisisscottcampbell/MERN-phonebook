@@ -8,7 +8,7 @@ const ContactItem = ({ contact }) => {
   const { id, name, email, phone, type } = contact;
 
   const onDelete = () => {
-    deleteContact(id);
+    deleteContact(id)
   }
 
   return (
