@@ -2,8 +2,7 @@ import {
   ADD_CONTACT,
   DELETE_CONTACT,
   SET_CURRENT,
-  // SET_CURRENT,
-  // CLEAR_CURRENT,
+  CLEAR_CURRENT,
   // UPDATE_CONTACT,
   // FILTER_CONTACTS,
   // CLEAR_FILTER
@@ -25,6 +24,11 @@ export default (state, action) => {
       return {
         ...state,
         current: action.payload
+      }
+    case CLEAR_CURRENT:
+      return {
+        ...state,
+        current: null
       }
     default:
       return state;
