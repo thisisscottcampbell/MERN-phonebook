@@ -84,7 +84,7 @@ const ContactForm = () => {
           onChange={onChange}
         /> Professional{' '}
         <div>
-          <input type="submit" value="Add Contact" className="btn btn-primary btn-block"/>
+          <input type="submit" value={current ? 'Edit Contact' : 'Add Contact'} className="btn btn-primary btn-block"/>
         </div>
     </form>
   )
