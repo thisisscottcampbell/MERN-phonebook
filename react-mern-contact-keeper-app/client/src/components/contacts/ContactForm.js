@@ -1,6 +1,5 @@
 import React, { useState, useContext, useEffect } from 'react'
 import ContactContext from '../../context/contact/contactContext'
-// import contactContext from '../../context/contact/contactContext';
 
 
 const ContactForm = () => {
@@ -20,7 +19,7 @@ const ContactForm = () => {
       });
     }
   }, [contactContext, current]);
-  
+
   const [contact, setContact] = useState({
     name: '',
     email: '',
