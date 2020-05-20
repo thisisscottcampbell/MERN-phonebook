@@ -4,7 +4,7 @@ import {
   SET_CURRENT,
   CLEAR_CURRENT,
   UPDATE_CURRENT,
-  // UPDATE_CONTACT,
+  UPDATE_CONTACT,
   // FILTER_CONTACTS,
   // CLEAR_FILTER
 } from '../types'

@@ -7,6 +7,7 @@ import {
   DELETE_CONTACT,
   SET_CURRENT,
   CLEAR_CURRENT,
+  UPDATE_CURRENT,
   UPDATE_CONTACT,
   FILTER_CONTACTS,
   CLEAR_FILTER
@@ -46,26 +47,26 @@ export const ContactState = (props) => {
     const addContact = contact => {
       contact.id = uuid();
       dispatch({ type: ADD_CONTACT, payload: contact })
-    }
+    };
 
     //Delete Contact
     const deleteContact = id => {
       dispatch({ type: DELETE_CONTACT, payload: id })
-    }
+    };
     //Set Current Contact
     const setCurrent = contact => {
       dispatch({ type: SET_CURRENT, payload: contact })
-    }
+    };
 
     //Clear Current Contact
     const clearCurrent = () => {
       dispatch({ type: CLEAR_CURRENT })
-    }
+    };
 
     //Update Current Contact
     const updateContact = contact => {
       dispatch({ type: UPDATE_CURRENT, payload: contact });
-    }
+    };
 
 
     //Filter Contacts
