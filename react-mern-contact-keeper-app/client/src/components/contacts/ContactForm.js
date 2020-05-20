@@ -42,7 +42,9 @@ const ContactForm = () => {
     })
   }
 
-  const clearAll
+  const clearAll = () => {
+    clearCurrent();
+  }
 
   return (
     <form onSubmit={onSubmit}>
